@@ -1,0 +1,33 @@
+Arguments: 
+  /home/jungai/.nvm/versions/node/v12.16.2/bin/node /mnt/c/Program Files (x86)/Yarn/bin/yarn.js add vitepress -D
+
+PATH: 
+  /home/jungai/.nvm/versions/node/v12.16.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Users/58050371/AppData/Local/Programs/Python/Python36-32:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/58050371/AppData/Local/Programs/Python/Python37-32/Scripts/:/mnt/c/Users/58050371/AppData/Local/Programs/Python/Python37-32/:/mnt/c/Users/58050371/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/58050371/AppData/Local/hyper/app-2.0.0/resources/bin:/mnt/c/Users/58050371/AppData/Local/atom/bin:/mnt/c/Users/58050371/AppData/Local/Yarn/bin:/mnt/c/Users/58050371/AppData/Roaming/npm
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: write EPROTO 139729411745664:error:140943FC:SSL routines:ssl3_read_bytes:sslv3 alert bad record mac:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1550:SSL alert number 20
+  
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:92:16)
+
+npm manifest: 
+  {
+    "name": "vitepress",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
